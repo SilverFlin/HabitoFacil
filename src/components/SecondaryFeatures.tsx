@@ -4,39 +4,39 @@ import { Container } from '@/components/Container'
 
 const features = [
   {
-    name: 'Invest any amount',
+    name: 'Plantillas Personalizadas',
     description:
-      'Whether it’s $1 or $1,000,000, we can put your money to work for you.',
+      'Adaptadas a tus objetivos, nuestras plantillas hacen que establecer hábitos sea simple y efectivo.',
     icon: DeviceArrowIcon,
   },
   {
-    name: 'Build a balanced portfolio',
+    name: 'Seguimiento Detallado',
     description:
-      'Invest in different industries to find the most opportunities to win huge.',
+      'Obtén insights precisos sobre tu progreso con análisis detallado, permitiéndote tomar decisiones informadas.',
     icon: DeviceCardsIcon,
   },
   {
-    name: 'Trade in real-time',
+    name: 'Apoyo Motivacional',
     description:
-      'Get insider tips on big stock moves and act on them within seconds.',
+      'Un chatbot personalizado te brinda apoyo constante, celebrando logros y ofreciendo motivación cuando más lo necesitas.',
     icon: DeviceClockIcon,
   },
   {
-    name: 'Profit from your network',
+    name: 'Variedad de Métricas',
     description:
-      'Invite new insiders to get tips faster and beat even other Pocket users.',
+      'Define y sigue tus propias métricas personalizadas para obtener una visión completa de tu progreso.',
     icon: DeviceListIcon,
   },
   {
-    name: 'Encrypted and anonymized',
+    name: 'Leaderboard Dinámico',
     description:
-      'Cutting-edge security technology that even the NSA doesn’t know about keeps you hidden.',
+      'Compite globalmente o con amigos para mantener la motivación alta y fomentar la colaboración.',
     icon: DeviceLockIcon,
   },
   {
-    name: 'Portfolio tracking',
+    name: 'Comprobación Efectiva de Hábitos',
     description:
-      'Watch your investments grow exponentially, leaving other investors in the dust.',
+      'Implementamos mecanismos efectivos para evaluar y celebrar el logro de tus hábitos, asegurando un cambio tangible en tu vida diaria.',
     icon: DeviceChartIcon,
   },
 ]
@@ -196,11 +196,13 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-3xl font-medium tracking-tight text-gray-900">
-            Now is the time to build your portfolio.
+            Inicia tu transformación con Habitofácil.
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            With typical market returns, you have to start young to secure your
-            future. With Pocket, it’s never too late to build your nest egg.
+            Características diseñadas para ti, esta app te ofrece las
+            herramientas esenciales para construir hábitos saludables y
+            productivos. Descubre la personalización y el apoyo motivacional en
+            tu viaje hacia un cambio positivo. Pruébalo ahora con Habitofácil.
           </p>
         </div>
         <ul

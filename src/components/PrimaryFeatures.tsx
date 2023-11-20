@@ -39,7 +39,7 @@ const features = [
   {
     name: 'Invite friends for better returns',
     description:
-      'For every friend you invite to Pocket, you get insider notifications 5 seconds sooner. And it’s 10 seconds if you invite an insider.',
+      'For every friend you invite to HabitoFácil, you get insider notifications 5 seconds sooner. And it’s 10 seconds if you invite an insider.',
     icon: DeviceUserIcon,
     screen: InviteScreen,
   },
@@ -578,13 +578,14 @@ export function PrimaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
           <h2 className="text-3xl font-medium tracking-tight text-white">
-            Every feature you need to win. Try it for yourself.
+            Todas las herramientas que necesitas para el éxito.
           </h2>
           <p className="mt-2 text-lg text-gray-400">
-            Pocket was built for investors like you who play by their own rules
-            and aren’t going to let SEC regulations get in the way of their
-            dreams. If other investing tools are afraid to build it, Pocket has
-            it.
+            Pruébalo por ti mismo. HábitoFácil fue diseñado para personas como
+            tú, que juegan según sus propias reglas y no permiten que las
+            normativas te frenen en la búsqueda de tus sueños. Si otras
+            aplicaciones de hábitos dudan en ofrecerlo, HábitoFácil lo tiene
+            para ti.
           </p>
         </div>
       </Container>

@@ -10,59 +10,56 @@ import { Logomark } from '@/components/Logo'
 
 const plans = [
   {
-    name: 'Starter',
+    name: 'HábitoBásico',
     featured: false,
     price: { Monthly: '$0', Annually: '$0' },
     description:
-      'You’re new to investing but want to do it right. Get started for free.',
+      'Eres nuevo en la mejora de hábitos y quieres hacerlo bien. Comienza gratis.',
+
     button: {
-      label: 'Get started for free',
+      label: 'Comienza gratis',
       href: '/register',
     },
     features: [
-      'Commission-free trading',
-      'Multi-layered encryption',
-      'One tip every day',
-      'Invest up to $1,500 each month',
+      'Acceso a templates oficiales',
+      '1 mes de prueba',
+      'Acceso limitado a chatbot',
+      'Leaderboard incluido',
     ],
     logomarkClassName: 'fill-gray-300',
   },
   {
-    name: 'Investor',
+    name: 'HábitoPro',
     featured: false,
-    price: { Monthly: '$7', Annually: '$70' },
+    price: { Monthly: '$49', Annually: '$499' },
     description:
-      'You’ve been investing for a while. Invest more and grow your wealth faster.',
+      'Has estado mejorando hábitos por un tiempo. Mejora aún más y hazlo más rápido.',
     button: {
-      label: 'Subscribe',
+      label: 'Suscribirse',
       href: '/register',
     },
     features: [
-      'Commission-free trading',
-      'Multi-layered encryption',
-      'One tip every hour',
-      'Invest up to $15,000 each month',
-      'Basic transaction anonymization',
+      'Acceso ilimitado al chatbot',
+      'Acceso a templates de la comunidad',
+      'Templates familiares',
+      'Personalización de Templates',
     ],
     logomarkClassName: 'fill-gray-500',
   },
   {
-    name: 'VIP',
+    name: 'HábitoColaborador',
     featured: true,
-    price: { Monthly: '$199', Annually: '$1,990' },
+    price: { Monthly: '$69', Annually: '$699' },
     description:
-      'You’ve got a huge amount of assets but it’s not enough. To the moon.',
+      'Tienes una cantidad enorme de hábitos para mejorar, pero no es suficiente. ¡Hacia la luna!',
     button: {
-      label: 'Subscribe',
+      label: 'Suscibirse',
       href: '/register',
     },
     features: [
-      'Commission-free trading',
-      'Multi-layered encryption',
-      'Real-time tip notifications',
-      'No investment limits',
-      'Advanced transaction anonymization',
-      'Automated tax-loss harvesting',
+      'Acceso a todo en la membresía normal',
+      'Vende tus propios templates',
+      'Crea templates con IA',
     ],
     logomarkClassName: 'fill-cyan-500',
   },
@@ -223,11 +220,11 @@ export function Pricing() {
             id="pricing-title"
             className="text-3xl font-medium tracking-tight text-gray-900"
           >
-            Flat pricing, no management fees.
+            Transforma tus Hábitos con Habitofácil
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            Whether you’re one person trying to get ahead or a big firm trying
-            to take over the world, we’ve got a plan for you.
+            Descubre nuestras opciones de precios diseñadas para adaptarse a tu
+            viaje de mejora personal.
           </p>
         </div>
 
