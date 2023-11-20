@@ -27,6 +27,9 @@ import {
   TupleLogo,
 } from '@/components/StockLogos'
 import appImage from '@/images/appPreview.png'
+import leaderboardImage from '@/images/Leaderboard.png'
+import activityImage from '@/images/Activity.png'
+import templatesImage from '@/images/Templates.png'
 
 const MotionAppScreenHeader = motion(AppScreen.Header)
 const MotionAppScreenBody = motion(AppScreen.Body)
@@ -45,16 +48,16 @@ const features = [
     screen: InviteScreen,
   },
   {
-    name: 'Notifications on stock dips',
+    name: 'Seguimiento Detallado',
     description:
-      'Get a push notification every time we find out something that’s going to lower the share price on your holdings so you can sell before the information hits the public markets.',
+      'Realiza un seguimiento detallado de tu progreso con herramientas intuitivas que te brindan información valiosa sobre tus hábitos y su impacto en tu vida diaria.',
     icon: DeviceNotificationIcon,
     screen: StocksScreen,
   },
   {
-    name: 'Invest what you want',
+    name: 'Apoyo Motivacional y Social',
     description:
-      'We hide your stock purchases behind thousands of anonymous trading accounts, so suspicious activity can never be traced back to you.',
+      'Recibe apoyo motivacional a través de un chatbot personalizado y comparte tu progreso con amigos mediante la función de leaderboard, haciendo que la mejora de hábitos sea más divertida y social.',
     icon: DeviceTouchIcon,
     screen: InvestScreen,
   },
@@ -196,7 +199,7 @@ function InviteScreen(props: ScreenProps) {
     <MotionAppScreenBody
       {...(props.animated ? { ...bodyAnimation, custom: props.custom } : {})}
     >
-      <Image src={appImage} unoptimized alt="App Preview" />
+      <Image src={templatesImage} unoptimized alt="App Preview" />
     </MotionAppScreenBody>
   )
 }
@@ -206,7 +209,7 @@ function StocksScreen(props: ScreenProps) {
     <MotionAppScreenBody
       {...(props.animated ? { ...bodyAnimation, custom: props.custom } : {})}
     >
-      <Image src={appImage} unoptimized alt="App Preview" />
+      <Image src={activityImage} unoptimized alt="App Preview" />
     </MotionAppScreenBody>
   )
 }
@@ -216,7 +219,7 @@ function InvestScreen(props: ScreenProps) {
     <MotionAppScreenBody
       {...(props.animated ? { ...bodyAnimation, custom: props.custom } : {})}
     >
-      <Image src={appImage} unoptimized alt="App Preview" />
+      <Image src={leaderboardImage} unoptimized alt="App Preview" />
     </MotionAppScreenBody>
   )
 }
