@@ -8,7 +8,7 @@ export function AppStoreLink({
 }) {
   return (
     <Link
-      href="#"
+      href="https://tinyurl.com/HabitoFacil"
       aria-label="Download on the App Store"
       className={clsx(
         'rounded-lg transition-colors',

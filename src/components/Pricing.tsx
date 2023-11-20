@@ -18,7 +18,7 @@ const plans = [
 
     button: {
       label: 'Comienza gratis',
-      href: '/register',
+      href: 'https://tinyurl.com/HabitoFacil',
     },
     features: [
       'Acceso a templates oficiales',
@@ -36,7 +36,7 @@ const plans = [
       'Has estado mejorando hábitos por un tiempo. Mejora aún más y hazlo más rápido.',
     button: {
       label: 'Suscribirse',
-      href: '/register',
+      href: 'https://tinyurl.com/HabitoFacil',
     },
     features: [
       'Acceso ilimitado al chatbot',
@@ -54,7 +54,7 @@ const plans = [
       'Tienes una cantidad enorme de hábitos para mejorar, pero no es suficiente. ¡Hacia la luna!',
     button: {
       label: 'Suscibirse',
-      href: '/register',
+      href: 'https://tinyurl.com/HabitoFacil',
     },
     features: [
       'Acceso a todo en la membresía normal',

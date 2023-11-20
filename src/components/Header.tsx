@@ -115,7 +115,9 @@ export function Header() {
                             <MobileNavLink href="/#faqs">FAQs</MobileNavLink>
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
-                            <Button href="#">Descarga la App</Button>
+                            <Button href="https://tinyurl.com/HabitoFacil">
+                              Descarga la App
+                            </Button>
                           </div>
                         </Popover.Panel>
                       </>
@@ -125,7 +127,10 @@ export function Header() {
               )}
             </Popover>
 
-            <Button href="#" className="hidden lg:block">
+            <Button
+              href="https://tinyurl.com/HabitoFacil"
+              className="hidden lg:block"
+            >
               Descargar
             </Button>
           </div>
